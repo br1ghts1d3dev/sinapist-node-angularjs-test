@@ -1,0 +1,29 @@
+{
+  "name": "sinapist-node-angularjs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/br1ghts1d3dev/sinapist-node-angularjs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/br1ghts1d3dev/sinapist-node-angularjs-test/issues"
+  },
+  "homepage": "https://github.com/br1ghts1d3dev/sinapist-node-angularjs-test#readme",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-route": "^1.7.8",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
