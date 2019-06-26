@@ -3,7 +3,7 @@ angular
   .controller('MainController', MainController)
 
 // $http should be in service, no time for that
-function MainController ($scope, $http) {
+function  ($scope, $http) {
   $scope.firstNum = '';
   $scope.secondNum = '';
   $scope.sumResult = '';
