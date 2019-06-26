@@ -14,10 +14,10 @@ angular
         secondNum: $scope.secondNum
       };
 
-      $http.post('http://localhost/sum', JSON.stringify(reqBody))
+      $http.post('http://localhost:3000/sum', reqBody)
         .then(res => {
           console.log(res);
-          $scope.sumResult = res.result;
+          $scope.sumResult = res.data.result;
         });
 
     }

@@ -1,7 +1,9 @@
 // Imports
 const express = require('express');
 const app = express();
+const cors = require('cors')
 const bodyParser = require('body-parser');
+
 
 const router = require('./routing');
 
@@ -9,6 +11,7 @@ const router = require('./routing');
 const config = require('./config/config.json');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cors());
 
 // REST
 app.use('/', router);
