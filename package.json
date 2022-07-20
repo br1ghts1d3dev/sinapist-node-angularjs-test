@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/br1ghts1d3dev/sinapist-node-angularjs-test#readme",
   "dependencies": {
-    "angular": "^1.6.10",
+    "angular": "^1.8.3",
     "angular-route": "^1.7.8",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
